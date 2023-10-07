@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Profile</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .profile-picture {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            margin: 0 auto 20px;
+            background-color: #ccc;
+        }
+        .bio {
+            font-size: 18px;
+            margin-bottom: 20px;
+        }
+        .profile-stats {
+            display: flex;
+            justify-content: space-between;
+        }
+        .stat-item {
+            text-align: center;
+        }
+        .edit-profile-link {
+            display: block;
+            text-align: center;
+            text-decoration: none;
+            background-color: #007BFF;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            margin-top: 10px;
+        }
+        .user-posts {
+            margin-top: 20px;
+        }
+        .post {
+            border: 1px solid #ccc;
+            padding: 10px;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>User Profile</h1>
+        <img class="profile-picture" src="profile-picture.jpg" alt="Profile Picture">
+        <p class="bio">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eget purus non ligula euismod tincidunt.
+        </p>
+        <div class="profile-stats">
+            <div class="stat-item">
+                <p>Posts</p>
+                <p>100</p><!-- Replace with actual post count -->
+            </div>
+            <div class="stat-item">
+                <p>Followers</p>
+                <p>500</p><!-- Replace with actual follower count -->
+            </div>
+            <div class="stat-item">
+                <p>Following</p>
+                <p>200</p><!-- Replace with actual following count -->
+            </div>
+        </div>
+        <a class="edit-profile-link" href="/edit-profile">Edit Profile</a>
+
+        <div class="user-posts">
+            <!-- Display user's posts here -->
+            <div class="post">
+                <h2>Post Title 1</h2>
+                <p>Post content goes here...</p>
+                <img src="post1.jpg" alt="Post 1">
+            </div>
+            <div class="post">
+                <h2>Post Title 2</h2>
+                <p>Post content goes here...</p>
+                <img src="post2.jpg" alt="Post 2">
+            </div>
+            <!-- Add more posts here as needed -->
+        </div>
+    </div>
+</body>
+</html>
